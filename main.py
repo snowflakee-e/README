@@ -8,3 +8,7 @@ def multiply_numbers(a, b):
 
 if __name__ == "__main__":
     print(add_numbers(5, 3))
+    
+def add_numbers(a, b)  # ОШИБКА: нет двоеточия!
+    """Функция сложения двух чисел"""
+    return a + b
